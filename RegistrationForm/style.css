@@ -1,0 +1,66 @@
+*{
+    margin:0Px;
+    padding:0px
+}
+*body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-container{
+    width:400px;
+    margin:50px auto;
+    border-radius:black ;
+    padding:10px;
+   background-color:white;
+    border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+Label{
+    display:block;
+    display: flex;
+    margin-bottom:10px;
+    
+    gap:5px;
+    font-weight: bold
+  
+
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width:95%;
+    margin-bottom:10px;
+    margin-right: 30px;
+    border-radius:5px;
+   margin-top:5px;
+    padding:8px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background: #45a049;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom:10px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+select.dropown {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
